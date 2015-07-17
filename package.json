@@ -1,0 +1,30 @@
+{
+  "name": "batman-transition",
+  "version": "0.1.0",
+  "description": "Turn your links into the old school transition from Batman TV series.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "del": "^1.2.0",
+    "gulp-zip": "^3.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bojzi/batman-transition"
+  },
+  "keywords": [
+    "batman",
+    "transition",
+    "tv",
+    "series",
+    "link"
+  ],
+  "author": "Kristian Poslek <kristian.poslek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bojzi/batman-transition/issues"
+  },
+  "homepage": "https://github.com/bojzi/batman-transition"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "batman-transition",
+    "version": "0.1.0",
+    "authors": [
+        "Kristian Poslek <kristian.poslek@gmail.com>"
+    ],
+    "description": "Turn your links into the old school transition from Batman TV series.",
+    "main": "dist/batman-transition.js",
+    "keywords": [
+        "bats",
+        "batman",
+        "transition",
+        "links",
+        "series"
+    ],
+    "moduelType": [
+        "globals"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "src"
+    ]
+}
