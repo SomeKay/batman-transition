@@ -8,7 +8,9 @@ export function BatmanTransition(selector, targetUrl) {
     let linkEl = document.querySelectorAll(selector);
 
     Array.prototype.forEach.call(linkEl, function(element, i) {
-        element.addEventListener('click', function() {
+        element.addEventListener('click', function(event) {
+            event.preventDefault();
+
             let bodyEl = document.querySelector('body');
 
             let spinEl = document.createElement('div');
@@ -26,8 +28,6 @@ export function BatmanTransition(selector, targetUrl) {
                 bodyEl.style.display = 'none';
                 window.location.href = targetUrl
             }, 1500);
-
-            return false;
         });
     });
 
