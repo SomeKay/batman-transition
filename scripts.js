@@ -1,0 +1,1 @@
+var batmanTransition = new BatmanTransition('a', 'https://www.dccomics.com/characters/batman');
